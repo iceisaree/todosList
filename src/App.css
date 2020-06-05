@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1F618D;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tablebox{
+  margin-top: 3%;
+  width: 35%;
+  align-content: center;
+  height: 300px;
+  background: #154360;
+  margin-bottom: 2%;
+  overflow-y: scroll;
+}
+.tablecell{
+  color: white;
+  /* width: 30%; */
+  text-align: left;
+  margin-bottom: 2%;
+  font-size: initial;
+}
+th, td {
+  padding: 10px;
+  width: 100%;
+}
+
+.butt {
+  transition-duration: 0.4s;
+  border: none;
+  background-color:#3498DB;
+  color: white;
+  /* padding: 2%; */
+  border-radius: 12px;
+  margin-left: 2%;
+  font-size: initial;
+  width: 45px;
+  height: 37px;
+}
+
+.butt:hover {
+  background-color: #2874A6;
+  color: white;
+}
+.buttdel {
+  transition-duration: 0.4s;
+  border: none;
+  background-color:#EC7063;
+  color: white;
+  padding: 2%;
+  border-radius: 20px;
+  margin-left: 2%;
+  font-size: initial;
+}
+
+.buttdel:hover {
+  background-color: #CB4335;
+  color: white;
+}
+
+.inputbox{
+  align-content: center;
+  width: 50%;
+  height: 50px;
+}
+.text-input {
+  /* border-top: none;
+  border-left: none;
+  border-right: none; */
+  height: 65%;
+  width: 50%;
+  font-size: initial;
+  padding-left: 8px;
+  margin-right: 2%;
+}
+.del {
+  transition-duration: 0.4s;
+  border: none;
+  background-color:#EC7063;
+  color: white;
+  border-radius: 20px;
+  margin-left: 2%;
+  font-size: initial;
+  width: 26px;
+}
+
+.del:hover {
+  background-color: #CB4335;
+  color: white;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal_content {
+  background-color: white;
+  position: absolute;
+}
